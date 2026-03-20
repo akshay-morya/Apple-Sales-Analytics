@@ -1,0 +1,66 @@
+{
+  "name": "Apple Light",
+  "dataColors": [
+    "#0071E3",
+    "#34C759",
+    "#FF9500",
+    "#FF3B30",
+    "#AF52DE",
+    "#00C7BE",
+    "#1C1C1E",
+    "#636366"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1C1C1E",
+  "tableAccent": "#0071E3",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "SF Pro Display, Segoe UI, Arial" }],
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{ "fontSize": 28, "fontBold": true, "color": { "solid": { "color": "#0071E3" } } }],
+        "label": [{ "color": { "solid": { "color": "#636366" } }, "fontSize": 11 }],
+        "background": [{ "color": { "solid": { "color": "#F5F5F7" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E5E5EA" } }, "radius": 12 }]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#0071E3" } } }],
+        "plotArea": [{ "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 100 }] }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#0071E3" } } }],
+        "line": [{ "strokeWidth": 2.5 }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#0071E3" } } }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [{ "show": true, "position": "Right" }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "header": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#0071E3" } }, "fontBold": true }],
+        "rows": [{ "fontColor": { "solid": { "color": "#1C1C1E" } }, "backColor": { "solid": { "color": "#FFFFFF" } }, "altBackColor": { "solid": { "color": "#F5F5F7" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "selection": [{ "selectAllCheckboxEnabled": true }],
+        "header": [{ "fontColor": { "solid": { "color": "#1C1C1E" } }, "background": { "solid": { "color": "#F5F5F7" } } }]
+      }
+    }
+  }
+}
